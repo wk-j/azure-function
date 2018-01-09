@@ -1,0 +1,12 @@
+{
+    "bindings": [
+        {
+            "name": "timer",
+            "type": "timerTrigger",
+            "schedule": "0 * * * * *"
+        }
+    ],
+    "scriptFile": "../bin/WkFunctions.dll",
+    "entryPoint": "WkFunctions.Say.hello",
+    "disabled": true
+}
