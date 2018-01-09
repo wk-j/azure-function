@@ -7,10 +7,10 @@
             ],
             "authLevel": "anonymous",
             "name": "req",
-            "route": "hellowk"
+            "route": "wk-http-trigger"
         }
     ],
     "scriptFile": "../bin/WkHttpTrigger.dll",
     "entryPoint": "WkHttpTrigger.Program.run",
-    "disabled": true
+    "disabled": false
 }
