@@ -1,0 +1,16 @@
+{
+    "bindings": [
+        {
+            "type": "httpTrigger",
+            "mothods": [
+                "get"
+            ],
+            "authLevel": "anonymous",
+            "name": "req",
+            "route": "hellowk"
+        }
+    ],
+    "scriptFile": "../bin/WkHttpTrigger.dll",
+    "entryPoint": "WkHttpTrigger.Program.run",
+    "disabled": true
+}
